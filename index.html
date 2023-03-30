@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>CbaStore</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="carrito.png" id="img-carrito">
+                            <div id="carrito">                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                    <div id="total-carrito" class="text-end">Total: $0</div>
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+    <div id="precios" class="container">
+        <h1 id="titulo" class="titulo">Venta de PCs para Empresas</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <div class="info-card">
+                        <h4>AMD ATHLON 3000G SSD 240GB</h4>
+                        <p class="precio"><span class="u-pull-right ">$90,000</span> Basica</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <div class="info-card">
+                            <h4>I5 11400 H510 16GB 1TB</h4>
+                            <p class="precio"><span class="u-pull-right ">$160,000</span> Gama Media</p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <div class="info-card">
+                            <h4>INTEL I7 11700F 32GB 480GB SSD 3070 TI</h4>
+                            <p class="precio"><span class="u-pull-right ">$500,000</span> Profesional</p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar</a>
+                        </div>
+                    </div>
+            </div>
+    </div>  
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

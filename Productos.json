@@ -1,0 +1,19 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Basica",
+      "precio": 90.000
+    },
+    {
+      "id": 2,
+      "titulo": "Gama media",
+      "precio": 160.000
+    },
+    {
+      "id": 3,
+      "titulo": "Profesional",
+      "precio": 500.000
+    }
+  ]
+}
